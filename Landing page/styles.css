@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #534caf;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+.column {
+    flex: 1;
+    padding: 1em;
+    margin: 0 1em;
+    background-color: #5e5b5b;
+    border: 2px solid #0726d4;
+    color: rgb(255, 255, 255);
+}
+
+.main-content {
+    position: relative;
+    height: 90vh;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.register-btn, .book-btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover, .book-btn:hover {
+    background-color: #ff4500;
+}
+footer {
+    background-color: #6c6161;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0; 
+    width: 100%;
+    bottom: 0;
+}
